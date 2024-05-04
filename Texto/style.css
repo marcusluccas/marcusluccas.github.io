@@ -1,0 +1,91 @@
+/* Color Theme Swatches in Hex */
+.My-Color-Web-1-hex { color: #319BE6; }
+.My-Color-Web-2-hex { color: #E62F3B; }
+.My-Color-Web-3-hex { color: #E57400; }
+.My-Color-Web-4-hex { color: #FABB5F; }
+.My-Color-Web-5-hex { color: #4E6CEB; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Web-1-rgba { color: rgba(49, 155, 230, 1); }
+.My-Color-Web-2-rgba { color: rgba(230, 47, 59, 1); }
+.My-Color-Web-3-rgba { color: rgba(229, 116, 0, 1); }
+.My-Color-Web-4-rgba { color: rgba(250, 187, 95, 1); }
+.My-Color-Web-5-rgba { color: rgba(78, 108, 235, 1); }
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Web-1-hsla { color: hsla(204, 78, 54, 1); }
+.My-Color-Web-2-hsla { color: hsla(356, 78, 54, 1); }
+.My-Color-Web-3-hsla { color: hsla(30, 100, 44, 1); }
+.My-Color-Web-4-hsla { color: hsla(35, 93, 67, 1); }
+.My-Color-Web-5-hsla { color: hsla(228, 79, 61, 1); }
+
+* {
+    font-family: Verdana;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    background-image: linear-gradient(to right, #319BE6, #4E6CEB);
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    width: 1150px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(60, 71, 94, 0.733);
+    margin: auto;
+}
+
+h1{
+    color: #319BE6;
+    text-shadow: 2px 2px 5px #22689b9d;
+    text-align: center;
+    font-size: 4em;
+}
+
+h2{
+    color: #E57400;
+    text-shadow: 2px 2px 5px #22689b9d;
+    font-size: 3.5em;
+}
+
+h3{
+    color: #FABB5F;
+    text-shadow: 2px 2px 5px #22689b9d;
+    font-size: 3em;
+}
+
+h4{
+    color: #4E6CEB;
+    text-shadow: 2px 2px 5px #22689b9d;
+    font-size: 2.5em;
+}
+
+h5{
+    color:#E62F3B;
+    text-shadow: 2px 2px 5px #22689b9d;
+    font-size: 2em;
+}
+
+p {
+    text-align: justify;
+    text-shadow: 1px 1px 2px #22699b73;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.651);
+}
+
+a{
+    color:#E62F3B;
+}
+
+ins{
+    color:#E62F3B;
+}
+
+abbr{
+    color:#E62F3B;
+}
