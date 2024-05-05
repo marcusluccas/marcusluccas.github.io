@@ -1,3 +1,7 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
 /* Color Theme Swatches in Hex */
 .My-Color-Web-1-hex { color: #319BE6; }
 .My-Color-Web-2-hex { color: #E62F3B; }
@@ -20,7 +24,7 @@
 .My-Color-Web-5-hsla { color: hsla(228, 79, 61, 1); }
 
 * {
-    font-family: Verdana;
+    font-family: "Chelsea Market", system-ui;
     color: rgb(0, 0, 0);
 }
 
