@@ -55,4 +55,15 @@ p {
 a {
     color: #319BE6;
     font-size: 25px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4E6CEB;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(160, 185, 233)
 }

@@ -28,11 +28,11 @@
     color: rgb(0, 0, 0);
 }
 
-body{
+body {
     background-image: linear-gradient(to right, #319BE6, #4E6CEB);
 }
 
-main{
+main {
     background-color: rgb(255, 255, 255);
     width: 1150px;
     padding: 10px;
@@ -41,39 +41,38 @@ main{
     margin: auto;
 }
 
-h1{
+h1 {
     color: #319BE6;
     text-shadow: 2px 2px 5px #22689b9d;
     text-align: center;
     font-size: 4em;
 }
 
-h2{
+h2 {
     color: #E57400;
     text-shadow: 2px 2px 5px #22689b9d;
     font-size: 3.5em;
 }
 
-h3{
+h3 {
     color: #FABB5F;
     text-shadow: 2px 2px 5px #22689b9d;
     font-size: 3em;
 }
 
-h4{
+h4 {
     color: #4E6CEB;
     text-shadow: 2px 2px 5px #22689b9d;
     font-size: 2.5em;
 }
 
-h5{
+h5 {
     color:#E62F3B;
     text-shadow: 2px 2px 5px #22689b9d;
     font-size: 2em;
 }
 
 p {
-    text-align: justify;
     text-shadow: 1px 1px 2px #22699b73;
 }
 
@@ -82,14 +81,35 @@ img {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.651);
 }
 
-a{
+a {
+    color:#E62F3B;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #E57400;
+}
+
+a:hover {
+    color: #4E6CEB;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #319BE6;
+}
+
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+ins {
     color:#E62F3B;
 }
 
-ins{
-    color:#E62F3B;
-}
-
-abbr{
+abbr {
     color:#E62F3B;
 }
