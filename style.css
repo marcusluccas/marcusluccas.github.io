@@ -26,30 +26,51 @@
 * {
     font-family: "Chelsea Market";
     font-size: 20px;
-    text-align: center;
+    margin: 0px;
     color: white;
 }
+
 body {
-    background-image: linear-gradient(to right, #319BE6, rgb(31, 31, 122));
+    background-image: linear-gradient(to right, rgb(15, 15, 59), rgb(31, 31, 122));
 }
-main {
-    background-color: rgb(15, 15, 59);
+
+header {
+    height: 50px;
     padding: 10px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(19, 19, 73, 0.719);
-    margin: auto;
-    width: 1000px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
 }
+
+header > img {
+    height: 100%;
+    margin-left: 100px;
+}
+
+header > nav {
+    padding: 10px;
+    margin-right: 50px;
+}
+
+main {
+    text-align: center;
+    padding: 10px;
+}
+
 h1 {
     font-size: 3em;
     text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.555);
-}
-h2 {
-    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.555);
+    margin: 20px;
 }
 
-p {
+h2 {
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.555);
+    margin: 20px;
+}
+
+main > p {
     text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.37);
+    margin: 10px;
 }
 
 a {
@@ -60,10 +81,15 @@ a {
 
 a:hover {
     color: #4E6CEB;
-    font-size: 28px;
+    font-size: 26px;
     text-decoration: underline;
 }
 
 a:active {
     color: rgb(160, 185, 233)
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 20px;
 }
